@@ -1,14 +1,18 @@
 # fullstack-mac
 
-- 7zX
-- Android Studio
-- xCode
-- Clean My Mac 3
-- Dr. Cleaner
-- Slack
-- Spotify
-- uTorrent
-- Visual Studio Code
+- Tools
+ - [NVM](https://github.com/creationix/nvm)
+ - [Android Studio](https://developer.android.com/studio/index.html)
+ - xCode
+ 
+- Apps
+ - 7zX
+ - Clean My Mac 3
+ - Dr. Cleaner
+ - Slack
+ - Spotify
+ - uTorrent
+ - Visual Studio Code
 
 
 
