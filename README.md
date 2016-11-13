@@ -5,6 +5,7 @@
  - [Android Studio](https://developer.android.com/studio/index.html)
  - xCode
  - [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+ - [Ionic2](http://ionicframework.com/docs/v2/resources/platform-setup/mac-setup.html)
  
 - Apps
  - 7zX
