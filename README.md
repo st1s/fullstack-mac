@@ -1,5 +1,7 @@
 # fullstack-mac
 
+> Curated list of things to work on mac
+
 - Tools
  - [NVM](https://github.com/creationix/nvm)
  - [Android Studio](https://developer.android.com/studio/index.html)
