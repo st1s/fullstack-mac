@@ -16,7 +16,10 @@
  - uTorrent
  - Visual Studio Code
 
-
+### AWS CLI
+```
+$ sudo pip install awscli --ignore-installed six
+```
 
 ### ˜/.bash_profile
 
