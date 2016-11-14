@@ -44,6 +44,13 @@ export PATH=${PATH}:~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-t
 export CLICOLOR=1
 alias ls='ls -Fa'
 
+# set nvm
+export NVM_DIR="/Users/st1s/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# For EB
+export PATH=~/.local/bin:$PATH
+
 # define colors
 C_DEFAULT="\[\033[m\]"
 C_WHITE="\[\033[1m\]"
@@ -74,7 +81,4 @@ C_BG_LIGHTGRAY="\[\033[47m\]"
 # set your prompt
 export PS1="\n$C_LIGHTGREEN\u$C_LIGHTYELLOW@$C_LIGHTGREEN\h$C_YELLOW:$C_LIGHTYELLOW\w$C_LIGHTGRAY\n\$$C_DEFAULT "
 
-# set nvm
-export NVM_DIR="/Users/st1s/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
