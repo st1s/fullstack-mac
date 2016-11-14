@@ -20,6 +20,12 @@
  - uTorrent
  - Visual Studio Code
 
+
+### AWS EB CLI
+```
+$ sudo pip install --upgrade --user awsebcli
+```
+
 ### AWS CLI
 ```
 $ sudo pip install awscli --ignore-installed six
@@ -49,7 +55,7 @@ export NVM_DIR="/Users/st1s/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # For EB
-export PATH=~/.local/bin:$PATH
+export PATH=${PATH}:~/Library/Python/2.7/bin
 
 # define colors
 C_DEFAULT="\[\033[m\]"
