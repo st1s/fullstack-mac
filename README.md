@@ -9,6 +9,7 @@
  - [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
  - [Ionic2](http://ionicframework.com/docs/v2/resources/platform-setup/mac-setup.html)
  - [PIP](https://pip.pypa.io/en/stable/installing/)
+ - [EB](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
  
 - Apps
  - 7zX
