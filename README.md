@@ -15,7 +15,7 @@
  - 7zX
  - Clean My Mac 3
  - Dr. Cleaner
- - Slack
+ - [Slack](https://slack.com/downloads/osx)
  - Spotify
  - uTorrent
  - Visual Studio Code
