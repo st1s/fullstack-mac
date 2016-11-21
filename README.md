@@ -1,6 +1,6 @@
 # fullstack-mac
 
-> Curated list of things to work on mac
+> Curated list of stuff to work on mac
 
 - Tools
  - xCode
@@ -35,7 +35,7 @@ $ sudo pip install awscli --ignore-installed six
 
 ```
 # Ionic Platform Permissions to load on xcode
-alias plat-perm='sudo chmod -R +x ./platforms && sudo chmod -R +x ./plugins && sudo chown -R $(whoami) ./platforms && sudo chown -R $(whoami) ./plugins'
+alias plat-perm='sudo chmod -R +x ./platforms && sudo chmod -R +x ./plugins && sudo chown -R $(whoami) ./platforms && sudo chown -R $(whoami) ./plugins && sudo chown -R $(whoami) ./src && sudo chmod -R +x ./src'
 
 # create a JAVA_HOME variable, determined dynamically
 export JAVA_HOME=$(/usr/libexec/java_home)
