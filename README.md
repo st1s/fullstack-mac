@@ -34,8 +34,8 @@ $ sudo pip install awscli --ignore-installed six
 ### ˜/.bash_profile
 
 ```
-# Ionic Platform Permissions to load on xcode
-alias plat-perm='sudo chmod -R +x ./platforms && sudo chmod -R +x ./plugins && sudo chown -R $(whoami) ./platforms && sudo chown -R $(whoami) ./plugins && sudo chown -R $(whoami) ./src && sudo chmod -R +x ./src && sudo chown -R $(whoami) ./.tmp && sudo chmod -R +x ./.tmp'
+# Ionic folder permissions
+alias ionic-perm='sudo chmod -R +x ./platforms && sudo chmod -R +x ./plugins && sudo chown -R $(whoami) ./platforms && sudo chown -R $(whoami) ./plugins && sudo chown -R $(whoami) ./src && sudo chmod -R +x ./src && sudo chown -R $(whoami) ./.tmp && sudo chmod -R +x ./.tmp'
 
 # create a JAVA_HOME variable, determined dynamically
 export JAVA_HOME=$(/usr/libexec/java_home)
