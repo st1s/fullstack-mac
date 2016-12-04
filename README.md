@@ -34,7 +34,7 @@ $ sudo pip install awscli --ignore-installed six
 ### ˜/.bash_profile
 
 ```
-# Ionic folder permissions
+# Ionic Platform Permissions to load on xcode
 alias ionic-perm='sudo chmod -R +x ./platforms && sudo chmod -R +x ./plugins && sudo chown -R $(whoami) ./platforms && sudo chown -R $(whoami) ./plugins && sudo chown -R $(whoami) ./src && sudo chmod -R +x ./src && sudo chown -R $(whoami) ./.tmp && sudo chmod -R +x ./.tmp'
 
 # create a JAVA_HOME variable, determined dynamically
@@ -44,7 +44,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=${JAVA_HOME}/bin:$PATH
 
 # Add the Android SDK to the PATH variable
-export PATH=${PATH}:~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools
+export PATH=${PATH}:~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/build-tools/25.0.1
 
 # Make ls use colors
 export CLICOLOR=1
