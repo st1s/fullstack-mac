@@ -1,3 +1,39 @@
+# fullstack-mac
+
+> Curated list of stuff to work on mac
+
+- Tools
+ - xCode
+ - [NVM](https://github.com/creationix/nvm)
+ - [Android Studio](https://developer.android.com/studio/index.html)
+ - [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+ - [Ionic2](http://ionicframework.com/docs/v2/resources/platform-setup/mac-setup.html)
+ - [PIP](https://pip.pypa.io/en/stable/installing/)
+ - [EB](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
+ 
+- Apps
+ - 7zX
+ - Clean My Mac 3
+ - Dr. Cleaner
+ - [Slack](https://slack.com/downloads/osx)
+ - Spotify
+ - uTorrent
+ - Visual Studio Code
+
+
+### AWS EB CLI
+```
+$ sudo pip install --upgrade --user awsebcli
+```
+
+### AWS CLI
+```
+$ sudo pip install awscli --ignore-installed six
+```
+
+### ˜/.bash_profile
+
+```
 # Ionic Platform Permissions to load on xcode
 alias plat-perm='sudo chmod -R +x ./platforms && sudo chmod -R +x ./plugins && sudo chown -R $(whoami) ./platforms && sudo chown -R $(whoami) ./plugins && sudo chown -R $(whoami) ./src && sudo chmod -R +x ./src && sudo chown -R $(whoami) ./.tmp && sudo chmod -R +x ./.tmp'
 
@@ -50,3 +86,4 @@ C_BG_LIGHTGRAY="\[\033[47m\]"
 
 # set your prompt
 export PS1="\n$C_LIGHTGREEN\u$C_LIGHTYELLOW@$C_LIGHTGREEN\h$C_YELLOW:$C_LIGHTYELLOW\w$C_LIGHTGRAY\n\$$C_DEFAULT "
+```
