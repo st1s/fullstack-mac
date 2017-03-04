@@ -34,8 +34,20 @@ $ sudo pip install awscli --ignore-installed six
 ### ˜/.bash_profile
 
 ```
+# git show tags by date
+alias git-tag-date='git log --tags --simplify-by-decoration --pretty="format:%ai %d"'
+
 # Ionic Platform Permissions to load on xcode
-alias ionic-perm='sudo chmod -R +x ./platforms && sudo chmod -R +x ./plugins && sudo chown -R $(whoami) ./platforms && sudo chown -R $(whoami) ./plugins && sudo chown -R $(whoami) ./src && sudo chmod -R +x ./src && sudo chown -R $(whoami) ./.tmp && sudo chmod -R +x ./.tmp'
+alias ionic-perm='sudo chown -R $(whoami) ./platforms &&
+                  sudo chown -R $(whoami) ./plugins &&
+                  sudo chown -R $(whoami) ./src &&
+                  sudo chown -R $(whoami) ./www &&
+                  sudo chown -R $(whoami) ./.tmp &&
+                  sudo chmod -R a+rwx ./src &&
+                  sudo chmod -R a+rwx ./www &&
+                  sudo chmod -R a+rwx ./platforms &&
+                  sudo chmod -R a+rwx ./plugins &&
+                  sudo chmod -R a+rwx ./.tmp'
 
 # create a JAVA_HOME variable, determined dynamically
 export JAVA_HOME=$(/usr/libexec/java_home)
